@@ -13,3 +13,7 @@
 ### Generate Report test results - junit-xml
 
 `python -m pytest --junit-xml report.xml`
+
+### API/Feature/Integration Testes
+
+`python -m pytest -m rest_api`
